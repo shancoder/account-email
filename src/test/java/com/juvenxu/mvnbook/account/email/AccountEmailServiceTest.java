@@ -33,6 +33,7 @@ public class AccountEmailServiceTest {
     public void testSendMail()
             throws Exception
     {
+        System.out.println("second commit");
         ApplicationContext ctx = new ClassPathXmlApplicationContext( "account-email.xml" );
         AccountEmailService accountEmailService = (AccountEmailService) ctx.getBean( "accountEmailService" );
 
